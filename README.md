@@ -1,4 +1,5 @@
-# practice
+# simple music app
+play music , pause , next, prev ,playlist
 
 ## Project setup
 ```
