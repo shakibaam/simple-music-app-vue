@@ -6,9 +6,13 @@
 
             <h1 style="color: white; background:none">My Music App</h1>
 
+
         </Header>
 
+        <img src="./assets/beauty.jpg" alt="" class="img-left">
+        <img src="./assets/piano.jpg" alt="" class="img-right">
         <main>
+
             <section class="player">
                 <h2 class="song-title">{{current.title}} :
                     <span>{{current.artist}}</span>
@@ -275,6 +279,29 @@
 
     .songPlaying:hover {
         background-color: PaleTurquoise;
+    }
+
+    .img-left{
+        height: 200px;
+        width: 200px;
+        float: left;
+        margin-top: 20px;
+        margin-left: 90px;
+        border-radius: 8px;
+
+    }
+
+    .img-right{
+        height: 200px;
+        width: 200px;
+        float: right;
+        margin-top: 20px;
+        margin-right: 90px;
+        border-radius: 8px;
+        transition: 0.5s;
+    }
+    img:hover{
+        opacity: 0.8;
     }
 
 
